@@ -3,28 +3,74 @@
 
 <head>
     <title>User Registration</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #e6f0ff;
+        }
+
+        th {
+            background-color: #0055aa;
+            color: white;
+        }
+
+        td{
+            padding: 30px;
+        }
+
+        a {
+            color: #0055aa;
+            text-decoration: none;
+        }
+
+        input {
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid;
+        }
+
+        input[type="submit"] {
+            background-color: #0055aa;
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            cursor: pointer;
+        }
+
+
+        input[type="submit"]:hover {
+            background-color: #003d80;
+        }
+
+        h3 {
+            margin: 8px 0;
+        }
+    </style>
+
+
 </head>
 
 <body>
 
-    <table border="1" width="100%">
+<table border="1" width="100%">
 
-        <tr height="100">
-            <th colspan="2">
-                <h1>OUR BANK</h1>
-            </th>
-        </tr>
+    <tr height="100">
+        <th colspan="2">
+            <h1>OUR BANK</h1>
+        </th>
+    </tr>
 
-        <tr>
-            <td>
-                <h3><a href="index.html">HOME</a></h3>
-                <h3>ABOUT US</h3>
-                <h3>SERVICES</h3>
-                <h3><a href="login.html">NETBANKING</a></h3>
-                <h3>CONTACT US</h3>
-            </td>
+    <tr>
+        <td width="20%" valign="top" align="center">
+            <h3><a href="index.html">HOME</a></h3>
+            <h3>ABOUT US</h3>
+            <h3>SERVICES</h3>
+            <h3><a href="login.html">NETBANKING</a></h3>
+            <h3>CONTACT US</h3>
+        </td>
 
-            <td align="center">
+        <td align="center">
+            <div class="content-box">
                 <h2>REGISTRATION</h2>
 
                 <form>
@@ -44,15 +90,16 @@
 
                     <a href="login.html">Already have an account? Login</a>
                 </form>
-            </td>
+            </div>
+        </td>
 
-        </tr>
+    </tr>
 
-        <tr>
-            <td colspan="2" align="center">www.ourbank.com</td>
-        </tr>
+    <tr>
+        <td colspan="2" align="center">www.ourbank.com</td>
+    </tr>
 
-    </table>
+</table>
 
 </body>
 
